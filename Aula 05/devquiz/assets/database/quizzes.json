@@ -1,0 +1,79 @@
+[
+	{
+		"title": "Java",
+		"imagem": "blocks",
+		"level": "facil",
+		"questionAnswered": 1,
+		"questions": [
+			{
+				"title": " O seguinte trecho de código Java pressupõe a\nexistência de uma classe Test que possui\num construtor que recebe uma String.\nUtiliza-se reflexão por meio do tipo Class, da própria linguagem Java. Test obj = new Test(“myName”); Class cls = obj.getClass( );System.out.println(cls.getName( ) );A saída produzida por esse trecho de código é:",
+				"awnsers": [
+					{
+						"title": "obj",
+						"isRight": true
+					},
+					{
+						"title": "myName"
+					},
+					{
+						"title": "Class"
+					},
+					{
+						"title": "cls"
+					}
+				]
+			},
+         {
+				"title": "Na plataforma Java SE 8, o coletor de lixo (garbage collector) somente libera o espaço ocupado pelo objeto A na memória quando",
+				"awnsers": [
+					{
+						"title": "o método destrutor do objeto A é invocado."
+					},
+					{
+						"title": "um novo objeto, do mesmo tipo que o objeto A, é instanciado."
+					},
+					{
+						"title": "todos os demais objetos referenciados pelo objeto A são apagados."
+					},
+					{
+						"title": "não há mais referências para o objeto A no programa.", "isRight": true
+					}
+				]
+			},
+			{
+				"title": "No que diz respeito à criação de métodos em Java, o qualificador ou modificador define a visibilidade e pode ser de três tipos básicos: I. é visível apenas pela própria classe. É o qualificador mais restritivo. II. é visível pela própria classe, por suas subclasses e pelas classes do mesmo pacote. III. é visível por qualquer classe, sendo o qualificador mais aberto no sentido de que qualquer classe pode usar esse método.” Os métodos definidos em I, II e III são respectivamente denominados",
+				"awnsers": [
+					{
+						"title": "private, protected e public.", "isRight": true
+					},
+					{
+						"title": "private, public e protected."
+					},
+					{
+						"title": "public, protected e private."
+					},
+					{
+						"title": "protected, public e private."
+					}
+				]
+			},
+			{
+				"title": "Ao se compilar um programa Java, foi retornado o seguinte erro. Exception in thread Main java.lang.NoClassDefFoundError: Teste Nesse caso, para solucionar o problema, deve-se",
+				"awnsers": [
+					{
+						"title": "private, protected e public.", "isRight": true
+					},
+					{
+						"title": "private, public e protected."
+					},
+					{
+						"title": "public, protected e private."
+					},
+					{
+						"title": "protected, public e private."
+					}
+				]
+			}				
+		]
+	}
+]
